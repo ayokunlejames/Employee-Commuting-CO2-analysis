@@ -3,7 +3,9 @@
 ## 1. Introduction
 ### 1.1 Purpose of the Analysis:
 The primary objective of this analysis is to calculate the carbon emissions resulting from university staff commuting. This includes determining the daily and annual emissions, identifying any anomalies in the commuting patterns, and providing insights that can help the university develop strategies to reduce its carbon footprint.
+
 a)	To calculate the carbon emissions from university staff commuting and estimate the impact over the academic year.
+
 b)	To identify any anomalies in the commuting data and provide actionable insights for reducing carbon emissions.
 
 ### 1.2 Importance of the Study:
@@ -13,7 +15,7 @@ Understanding the environmental impact of staff commuting is crucial for the uni
 ### 2.1 Data Collection
 
 This year, staff surveys were run from which an estimate of the university’s commuting CO2 emissions impact could be made. The survey captured information on commuting patterns, distances traveled, and modes of transport used by staff members.
-The results of the staff commuting survey were provided and were provided in an excel sheet with the following 12 columns: 
+The results of the staff commuting survey were provided in an excel sheet with the following 12 columns: 
 
 A.	in a typical week, what percentage are you on campus
 
@@ -58,7 +60,7 @@ The data provided was not usable in its raw state and needed to undergo some dat
 
 = IF(ISBLANK($O2), (IF(ISBLANK($P2), 0, $P2)), IFERROR($O2*1.609344, 0))
 
-•	I then used data from that column to compute a Round-trip mileage (km) for each employee. =Mileage(km)*2
+•	I then used data from that column to compute a Round-trip mileage (km) for each employee. =Mileage(km) * 2
 
 •	In order to compute hours worked by each employee, the latest arrival time was extracted from the arrival time column using the following formula
 
@@ -74,11 +76,13 @@ The rest of the data cleaning and transformation was done in Power BI. Upon Impo
 
 •	Blanks and missing values were appropriately handled especially for columns critical for estimating CO2 emissions. Blanks were omitted from the Mode of Transport and mileage columns. Blanks in the campus column were replaced with the ‘Other’ value.
 
+•	Values of 0 in the weekly attendance column were omitted. 
+
 •	Columns were renamed into shorter and more standard column names.
 
 •	An index column was inserted for uniquely identifying each row.
 
-•	A custom Conversion factor column was inserted using the ‘Transport Mode’ column, assigning the appropriate conversion factor to each row. Conversion factors used were provided in the original excel sheet except the ‘Flight’ transport mode, where the GHG standard protocol conversion factors provided by DEFRA for business travel by air were used. Using the provided conversion factors, the daily emissions for each staff member were calculated.
+•	A custom Conversion factor column was added using the ‘Transport Mode’ column, assigning the appropriate conversion factor to each row. Conversion factors used were provided in the original excel sheet except the ‘Flight’ transport mode, where the GHG standard protocol conversion factors provided by DEFRA for business travel by air were used. Using the provided conversion factors, the daily emissions for each staff member were calculated.
 
 ## 3. Methodology and analysis
 
