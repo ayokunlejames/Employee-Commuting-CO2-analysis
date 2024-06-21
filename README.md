@@ -106,7 +106,7 @@ viii.	Average round trip Carbon emission: SUM(Daily Round Trip CO2 emission (kgC
 
 ## 4. Data Analysis and Visualization
 
-The data model was then used to analyse and visualize trends and insights into the carbon emissions from employees commuting to work in 2023. A comprehensive Power BI report and dashboard was developed with the following insights and visuals: https://app.powerbi.com/view?r=eyJrIjoiNTkzOTJmNzctMGY0OC00NzZmLWIwNzktMTg3Y2JlMDNlZmIyIiwidCI6IjYwZDBmZTExLTY5MjAtNGM4Zi1hMzA3LTBhMzRkZDQzNDFmYSJ9 
+The data model was then used to analyse and visualize trends and insights into the carbon emissions from employees commuting to work in 2023. A [comprehensive Power BI report and dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTkzOTJmNzctMGY0OC00NzZmLWIwNzktMTg3Y2JlMDNlZmIyIiwidCI6IjYwZDBmZTExLTY5MjAtNGM4Zi1hMzA3LTBhMzRkZDQzNDFmYSJ9) was developed with the following insights and visuals: 
 
 ### 4.1 Overview dashboard
  
