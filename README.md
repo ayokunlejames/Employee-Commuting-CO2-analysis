@@ -92,7 +92,7 @@ i.	Daily Round trip CO2 emission (kgCO2e): Round Trip Mileage (km) * Conversion 
 
 ii.	Weekly CO2 emissions (kgCO2e): Daily Round trip CO2 emission (kgCO2e) * Weekly Attendance
 
-iii.	Annual CO2 emissions (kgCO2e): Daily Round trip CO2 emission (kgCO2e) * Weekly Attendance
+iii.	Annual CO2 emissions (kgCO2e): Daily Round trip CO2 emission (kgCO2e) * Yearly Attendance
 
 iv.	Yearly Mileage (km):  Round Trip Mileage (km) * Yearly Attendance
 
