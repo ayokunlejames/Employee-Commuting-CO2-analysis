@@ -92,17 +92,19 @@ i.	Daily Round trip CO2 emission (kgCO2e): Round Trip Mileage (km) * Conversion 
 
 ii.	Weekly CO2 emissions (kgCO2e): Daily Round trip CO2 emission (kgCO2e) * Weekly Attendance
 
-iii.	Annual CO2 emissions (kgCO2e): Daily Round trip CO2 emission (kgCO2e) * Yearly Attendance
+iii. Average Daily CO2 emission (kgCO2e): SUM(Weekly CO2 emissions (kgCO2e))/5
 
-iv.	Yearly Mileage (km):  Round Trip Mileage (km) * Yearly Attendance
+iv.	Annual CO2 emissions (kgCO2e): Daily Round trip CO2 emission (kgCO2e) * Yearly Attendance
 
-v.	Hours worked weekly: Work Duration (hours)  * Weekly Attendance
+v.	Yearly Mileage (km):  Round Trip Mileage (km) * Yearly Attendance
 
-vi.	Hours worked annually: Work Duration (hours)  * Yearly Attendance
+vi.	Hours worked weekly: Work Duration (hours)  * Weekly Attendance
 
-vii.	Average round trip mileage (km): SUM(Round Trip Mileage (km))/COUNTROWS(‘Working Sheet’)
+vii.	Hours worked annually: Work Duration (hours)  * Yearly Attendance
 
-viii.	Average round trip Carbon emission: SUM(Daily Round Trip CO2 emission (kgCO2e))/COUNTROWS(‘Working Sheet’)
+viii.	Average round trip mileage (km): SUM(Round Trip Mileage (km))/COUNTROWS(‘Working Sheet’)
+
+ix.	Average round trip Carbon emission: SUM(Daily Round Trip CO2 emission (kgCO2e))/COUNTROWS(‘Working Sheet’)
 
 ## 4. Data Analysis and Visualization
 
