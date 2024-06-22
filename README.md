@@ -144,11 +144,11 @@ vii.	The most carbon efficient modes of transportation aside walking and cycling
 
 ### 4.6	Anomalies
 
-Outliers, and data points which fall outside of the expected ranges were detected through the use of custom measures, calculated columns, and visualizations. The following anomalies were identified:
+Outliers, and data points which fall outside of the expected ranges were detected through visualizations of the distribution in Power BI and RStudio using the R programming language. The following anomalies were identified:
 
-i.	One employee who works on Streatham campus commutes 1658km to work per day, twice a week by flight, contributing 39,762 kgCO2e per academic year
+i.	One employee (ID: 991) who works on Streatham campus commutes 1658km to work per day, twice a week by flight, contributing 451 kgCO2e per daily commute and 39,762 kgCO2e per academic year
 
-ii.	Another employee commuting 3 times a week to Streatham campus by car, drives 772 km to work per day, contributing 17,000 kgCO2e per academic year
+ii.	Another employee (ID: 1657) commuting 3 times a week to Streatham campus by car, drives 772 km to work per day, contributing 128 kgCO2e per daily commute and 17,000 kgCO2e per academic year
 
 iii.	The average distance covered on foot within 21-30 minutes is more than twice the average distance covered in the same time by a taxi. The average distance covered by a taxi in 21-30 minutes is also three times less than the average distance it travels in 11-20 minutes.
 
