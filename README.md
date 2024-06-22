@@ -15,7 +15,7 @@ Understanding the environmental impact of staff commuting is crucial for the uni
 ### 2.1 Data Collection
 
 This year, staff surveys were run from which an estimate of the university’s commuting CO2 emissions impact could be made. The survey captured information on commuting patterns, distances traveled, and modes of transport used by staff members.
-The results of the staff commuting survey were provided in an excel sheet with the following 12 columns: 
+The results of the staff commuting survey were provided in an [excel sheet](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/blob/main/Staff%20Travel%20Survey%202023.xlsx) with the following 12 columns: 
 
 A.	in a typical week, what percentage are you on campus
 
@@ -108,22 +108,30 @@ ix.	Average round trip Carbon emission: SUM(Daily Round Trip CO2 emission (kgCO2
 
 ## 4. Data Analysis and Visualization
 
-The data model was then used to analyse and visualize trends and insights into the carbon emissions from employees commuting to work in 2023. A [comprehensive Power BI report and dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzY3NmYxZmQtMzZjZS00OTVmLWJmNmYtMDhmZTA2MTcyZDdiIiwidCI6IjYwZDBmZTExLTY5MjAtNGM4Zi1hMzA3LTBhMzRkZDQzNDFmYSJ9) was developed with the following insights and visuals: 
+The data model was then used to analyse and visualize trends and insights into the carbon emissions from employees commuting to work in 2023. A [comprehensive Power BI report and dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzY3NmYxZmQtMzZjZS00OTVmLWJmNmYtMDhmZTA2MTcyZDdiIiwidCI6IjYwZDBmZTExLTY5MjAtNGM4Zi1hMzA3LTBhMzRkZDQzNDFmYSJ9) was developed with the following insights and interactive visuals: 
 
 ### 4.1 Overview dashboard
- 
+
+ ![image](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/assets/129544207/b7c6608d-ab2d-4433-998b-f408e79344e8)
+
 Figure 1: Overview Dashboard
 
 ### 4.2 Transportation Mode Report
  
+ ![image](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/assets/129544207/37f9cc17-4a20-4c14-9a64-163dda500662)
+
 Figure 2: Transportation Mode Report
 
 ### 4.3 Attendance Report
  
+ ![image](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/assets/129544207/dd8210cc-c9fa-4f7e-a238-d36a2c98def4)
+
 Figure 3: Attendance Report
 
 ### 4.4 Campus Report
  
+ ![image](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/assets/129544207/6c0477f0-84dc-4f9e-98ff-b5ae35b8245b)
+
 Figure 4: Campus Report
 
 ### 4.5	Key Insights and Trends
@@ -144,7 +152,7 @@ vii.	The most carbon efficient modes of transportation aside walking and cycling
 
 ### 4.6	Anomalies
 
-Outliers, and data points which fall outside of the expected ranges were detected through visualizations of the distribution in Power BI and RStudio using the R programming language. The following anomalies were identified:
+Outliers, and data points which fall outside of the expected ranges were detected through visualizations of the distribution in Power BI and RStudio using the R programming language ([R Script](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/blob/main/emission%20outlier%20script.R)). The following anomalies were identified:
 
 i.	One employee (ID: 991) who works on Streatham campus commutes 1658km to work per day, twice a week by flight, contributing 451 kgCO2e per daily commute and 39,762 kgCO2e per academic year
 
@@ -154,6 +162,11 @@ iii.	The average distance covered on foot within 21-30 minutes is more than twic
 
 iv.	The average distance travelled by train in 11-20 minutes is considerably greater than the average distance travelled in longer travel times, and also very close to the distance travelled in over 60 minutes.
 
+A report on the outliers was also created in order to investigate those specific data points that fall outside the upper and lower bounds of the CO2 emission distribution. 
+
+![image](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/assets/129544207/2a7f4b1c-586b-47c5-bc3e-57c2bc9e1953)
+
+Figure 5: Outlier Report
 
 ## 5. Summary and Recommendations
 
