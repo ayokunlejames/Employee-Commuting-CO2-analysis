@@ -23,6 +23,7 @@ ggplot(dataset, aes(y = Emission)) +
   labs(title = "Boxplot of CO2 emission", y = "Emissions")
 
 
+#identify outliers
 Q1 <- quantile(dataset$Emission, 0.25)
 Q3 <- quantile(dataset$Emission, 0.75)
 IQR <- Q3-Q1
@@ -30,7 +31,6 @@ IQR <- Q3-Q1
 lower_bound <- Q1-1.5*IQR
 upper_bound <- Q3+1.5*IQR
 
-#identify outliers
 outliers <- dataset |> filter(Emission <lower_bound | Emission >upper_bound)
 
 outliers |> View()
