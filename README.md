@@ -1,10 +1,10 @@
 # Staff Commuting CO<sub>2</sub> emissions analysis
 
 ## 1. Introduction
-### 1.1 Purpose of the Analysis:
+### 1.1 Purpose of the Analysis
 The primary objective of this analysis is to calculate the carbon emissions resulting from university staff commuting. This includes determining the daily and annual emissions, identifying any anomalies in the commuting patterns, and providing insights that can help the university develop strategies to reduce its carbon footprint.
 
-### 1.2 Importance of the Study:
+### 1.2 Importance of the Study
 Understanding the environmental impact of staff commuting is crucial for the university’s sustainability efforts. By accurately measuring and analyzing these Scope 3 emissions, the university can implement targeted measures to promote greener commuting options, thus contributing to its overall sustainability goals.
  
 ## 2. Data Collection and Preparation
