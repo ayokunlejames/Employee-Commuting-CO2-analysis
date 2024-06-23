@@ -152,7 +152,7 @@ vii.	The most carbon efficient modes of transportation aside walking and cycling
 
 ### 4.6	Anomalies
 
-Data points which fall outside of the expected ranges ([Outliers] ()) were detected through visualizations of the distribution in Power BI and RStudio using the R programming language ([R Script](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/blob/main/emission%20outlier%20script.R)). The following anomalies were identified:
+Data points which fall outside of the expected ranges ([Outliers](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/blob/main/emissions%20boxplot.png)) were detected through visualizations of the distribution in Power BI and RStudio using the R programming language ([R Script](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/blob/main/emission%20outlier%20script.R)). The following anomalies were identified:
 
 i.	One employee (ID: 991) who works on Streatham campus commutes 1658km to work per day, twice a week by flight, contributing 451 kgCO2e per daily commute and 39,762 kgCO2e per academic year
 
