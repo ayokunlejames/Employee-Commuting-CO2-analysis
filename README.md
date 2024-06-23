@@ -97,13 +97,13 @@ The rest of the data cleaning and transformation was done in Power BI. Upon Impo
 
 Calculated Columns and Measures were created in Power BI using DAX expressions and formulas to estimate the following:
 
-1. Daily Round trip CO2 emission (kgCO<sub>2</sub>e): ``` Round Trip Mileage (km) * Conversion factor (kgCO<sub>2</sub>e/km) ```
+1. Daily Round trip CO2 emission (kgCO<sub>2</sub>e): ``` Round Trip Mileage (km) * Conversion factor (kgCO2e/km) ```
 
-2.	Weekly CO2 emissions (kgCO<sub>2</sub>e): ``` Daily Round trip CO<sub>2</sub> emission (kgCO<sub>2</sub>e) * Weekly Attendance ```
+2.	Weekly CO2 emissions (kgCO<sub>2</sub>e): ``` Daily Round trip CO2 emission (kgCO2e) * Weekly Attendance ```
 
-3. Average Daily CO2 emission (kgCO<sub>2</sub>e): ``` SUM(Weekly CO<sub>2</sub> emissions (kgCO<sub>2</sub>e))/5 ```
+3. Average Daily CO2 emission (kgCO<sub>2</sub>e): ``` SUM(Weekly CO2 emissions (kgCO2e))/5 ```
 
-4.	Annual CO2 emissions (kgCO<sub>2</sub>e): ``` Daily Round trip CO<sub>2</sub> emission (kgCO<sub>2</sub>e) * Yearly Attendance ```
+4.	Annual CO2 emissions (kgCO<sub>2</sub>e): ``` Daily Round trip CO2 emission (kgCO2e) * Yearly Attendance ```
 
 5.	Yearly Mileage (km):  ``` Round Trip Mileage (km) * Yearly Attendance ```
 
@@ -113,7 +113,7 @@ Calculated Columns and Measures were created in Power BI using DAX expressions a
 
 8.	Average round trip mileage (km): ``` SUM(Round Trip Mileage (km))/COUNTROWS(‘Working Sheet’) ```
 
-9.	Average round trip Carbon emission: ``` SUM(Daily Round Trip CO<sub>2</sub> emission (kgCO<sub>2</sub>e))/COUNTROWS(‘Working Sheet’) ```
+9.	Average round trip Carbon emission: ``` SUM(Daily Round Trip CO2 emission (kgCO<sub2e))/COUNTROWS(‘Working Sheet’) ```
 
 ## 4. Data Analysis and Visualization
 
