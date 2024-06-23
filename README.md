@@ -163,13 +163,13 @@ The data model was then used to analyse and visualize trends and insights into t
 
 Data points which fall outside of the expected ranges ([Outliers](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/blob/main/emissions%20boxplot.png)) were detected through visualizations of the distribution in Power BI and RStudio using the R programming language ([R Script](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/blob/main/emission%20outlier%20script.R)). The following anomalies were identified:
 
-i.	One employee (ID: 991) who works on Streatham campus commutes 1658km to work per day, twice a week by flight, contributing 451 kgCO2e per daily commute and 39,762 kgCO<sub>2</sub>e per academic year
+* One employee (ID: 991) who works on Streatham campus commutes 1658km to work per day, twice a week by flight, contributing 451 kgCO2e per daily commute and 39,762 kgCO<sub>2</sub>e per academic year
 
-ii.	Another employee (ID: 1657) commuting 3 times a week to Streatham campus by car, drives 772 km to work per day, contributing 128 kgCO2e per daily commute and 17,000 kgCO<sub>2</sub>e per academic year
+* Another employee (ID: 1657) commuting 3 times a week to Streatham campus by car, drives 772 km to work per day, contributing 128 kgCO2e per daily commute and 17,000 kgCO<sub>2</sub>e per academic year
 
-iii.	The average distance covered on foot within 21-30 minutes is more than twice the average distance covered in the same time by a taxi. The average distance covered by a taxi in 21-30 minutes is also three times less than the average distance it travels in 11-20 minutes.
+* The average distance covered on foot within 21-30 minutes is more than twice the average distance covered in the same time by a taxi. The average distance covered by a taxi in 21-30 minutes is also three times less than the average distance it travels in 11-20 minutes.
 
-iv.	The average distance travelled by train in 11-20 minutes is considerably greater than the average distance travelled in longer travel times, and also very close to the distance travelled in over 60 minutes.
+* The average distance travelled by train in 11-20 minutes is considerably greater than the average distance travelled in longer travel times, and also very close to the distance travelled in over 60 minutes.
 
 A report on the outliers was also created in order to investigate those specific data points that fall outside the upper and lower bounds of the CO<sub>2</sub> emission distribution. 
 
@@ -187,16 +187,16 @@ The overall carbon emissions from staff commuting for the academic year amount t
 
 To reduce commuting-related carbon emissions, the university should consider:
 
-a)	Discourage the use of carbon inefficient modes of transportation like cars, flights etc. Instead, carbon efficient modes like use of public transportation buses, Electric cars, and train may be incentivized to lower the carbon emission impact of employees commuting.
+1)	Discourage the use of carbon inefficient modes of transportation like cars, flights etc. Instead, carbon efficient modes like use of public transportation buses, Electric cars, and train may be incentivized to lower the carbon emission impact of employees commuting.
 
-b)	Encouraging car-sharing: staff may be encouraged to adopt carpooling, reducing single occupancy car commutes and thus lowering emissions
+2)	Encouraging car-sharing: staff may be encouraged to adopt carpooling, reducing single occupancy car commutes and thus lowering emissions
 
-c)	Remote Work: Increasing incentives for remote work and virtual meetings for staff, especially those who work on Streatham campus reduces the need for staff to commute to work and thus reduces the university’s carbon emissions from staff commuting.
+3)	Remote Work: Increasing incentives for remote work and virtual meetings for staff, especially those who work on Streatham campus reduces the need for staff to commute to work and thus reduces the university’s carbon emissions from staff commuting.
 
-d)	Provision of On-Campus Housing: On-campus housing may be provided for staff, especially those who live a far distance from the university to reduce their commute distance and thus emissions.
+4)	Provision of On-Campus Housing: On-campus housing may be provided for staff, especially those who live a far distance from the university to reduce their commute distance and thus emissions.
 
-e)	Provision of bicycle facilities: additional infrastructure like bicycle racks may be provided all over the campuses to support cycling to work.
+5)	Provision of bicycle facilities: additional infrastructure like bicycle racks may be provided all over the campuses to support cycling to work.
 
-f)	Improving data quality: the quality of insights on carbon emissions may be improved by improving the quality of data being collected, through data validation checks to avoid errors in computing and frustrating emission reduction efforts.
+6)	Improving data quality: the quality of insights on carbon emissions may be improved by improving the quality of data being collected, through data validation checks to avoid errors in computing and frustrating emission reduction efforts.
 
 
