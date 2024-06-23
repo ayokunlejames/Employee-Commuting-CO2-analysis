@@ -138,9 +138,9 @@ Figure 4: Campus Report
 
 i.	The overall Carbon emissions impact of staff daily commuting over the whole academic year is 886,035.8 kg of CO2 emissions.
 
-ii.	Commute by Car accounts for 85.11% of CO2 emissions per academic year with over 720,000 kgCO2e, the highest of all transportation modes as shown in Figure 2. This is the most carbon-inefficient mode of transport.
+ii.	Commute by Car accounts for 81.3% of CO2 emissions per academic year with over 720,000 kgCO2e, the highest of all transportation modes as shown in Figure 2. 
 
-iii.	Each employee who commutes to work in a Car Contributes an average of 1,003 kgCO2e per academic year, more than twice the overall average of 484 kg CO2e
+iii.	Each employee who commutes to work in a Car Contributes an average of 1,003 kgCO2e per academic year, more than twice the overall average of 498 kg CO2e
 
 iv.	Overall, employees who commute to work twice a week contribute the greatest to the CO2 emissions, despite the number of these employees being less than those who commute 5 times a week. This is due to a high commute mileage, coupled with the use of carbon-inefficient modes of transportation.
 
@@ -152,7 +152,7 @@ vii.	The most carbon efficient modes of transportation aside walking and cycling
 
 ### 4.6	Anomalies
 
-Outliers, and data points which fall outside of the expected ranges were detected through visualizations of the distribution in Power BI and RStudio using the R programming language ([R Script](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/blob/main/emission%20outlier%20script.R)). The following anomalies were identified:
+Data points which fall outside of the expected ranges ([Outliers] ()) were detected through visualizations of the distribution in Power BI and RStudio using the R programming language ([R Script](https://github.com/ayokunlejames/Employee-Commuting-CO2-analysis/blob/main/emission%20outlier%20script.R)). The following anomalies were identified:
 
 i.	One employee (ID: 991) who works on Streatham campus commutes 1658km to work per day, twice a week by flight, contributing 451 kgCO2e per daily commute and 39,762 kgCO2e per academic year
 
