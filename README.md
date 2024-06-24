@@ -91,7 +91,7 @@ The rest of the data cleaning and transformation was done in Power BI. Upon Impo
 *	A custom Conversion factor column was added using the ‘Transport Mode’ column, assigning the appropriate conversion factor to each row. The daily emissions for each staff member were calculated using the conversion factors provided in the original excel sheet.
 
 > [!NOTE]
-> The GHG standard protocol conversion factors provided by DEFRA for business travel by air were used for the ‘Flight’ transport mode.
+> The GHG protocol standard conversion factors provided by DEFRA for business travel by air were used for the ‘Flight’ transport mode.
 
 ## 3. Methodology and analysis
 
